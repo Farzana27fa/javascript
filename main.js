@@ -8,7 +8,7 @@ let texts=['"Good decisions come from experience.Experience comes from making ba
              '"Train your mind to see the good in every situation"-Anonymous',
              '"If people are doubting how far you can go,go so far that you cannot hear them"-Michele Ruiz',
              '"Do not give up because you had a bad day,forgive yourself and do better tomorrow"-Anonymous',
-             '"Sometimes Allah allows you to taste the bitterness of this world so that you fully appreciate the sweetness of faith"-omar Suleiman',];
+             '"Sometimes Allah allows you to taste the bitterness of this world so that you fully appreciate the sweetness of faith"-omar Suleiman'];
 
 
 function RandomQuote()
