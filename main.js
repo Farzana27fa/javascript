@@ -13,7 +13,7 @@ let texts=['"Good decisions come from experience.Experience comes from making ba
 
 function RandomQuote()
 {
-    document.getElementById("TEXTAREA").innerHTML= texts[Math.round(Math.random()*4)];
+    document.getElementById("TEXTAREA").innerHTML= texts[Math.round(Math.random()*texts.length)];
 }
 
 function Green()
