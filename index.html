@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Zhi+Mang+Xing&display=swap" rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One|Yanone+Kaffeesatz|Zhi+Mang+Xing&display=swap" rel="stylesheet"/>
+   
+</head>
+
+
+<body onload="RandomQuote()">
+    <div class="Container">
+        <h2 id="quotebox"><center>Random Quote!</center></h2>
+        <div class="section1">
+        
+            <textarea name="TEXTAREA" id="TEXTAREA" disabled="disabled"> </textarea>
+            <div class="colorButtons">
+                <button name="button1" type="button" onclick="Green()" style="background-color: #519E8A"></button>
+           
+                <button name="button1" type="button" onclick="Pink()" style="background-color: #DAA49A"></button>
+                 <br>
+                <button name="button1" type="button" onclick="Blue()" style="background-color: #58A4B0"></button>
+                <button name="button1" type="button" onclick="Yellow()"  style="background-color: #F4D35E"></button>
+            </div>
+            <script type="text/javascript" src="main.js"></script>
+        </div>
+    </div>
+
+
+
+    <div class="Container2">
+        <h2 id="convt"><center>Hero Converter</center></h2>
+	
+	<div>
+	<span id="ons">Convert :</span> <input id="cvt" type=" number" name="K">		
+	<select id="CnvTyp">
+  	<option value="P2K">lb to kg</option>
+  	<option value="K2P">kg to lb</option>
+	</select>
+	<button onclick="Cnvrt()">Go</button>
+	<button>=</button>
+	
+	<span id="ans"></span>
+	</form>
+	</div>
+
+
+    </div>
+    
+    <div class="Container3" >
+        <h2 id="cal"><center>Calculator</center></h2>
+        <div class="section3">
+        
+            <form>
+                
+            <input type="text" id="CALCULATETEXT" placeholder="Type Numbers here"   onkeyup="Calculate()">
+                <br>
+                <br>
+                
+                <label>Max: </label>
+                <output id="MAX"></output>
+                <br>
+                <br>
+                  <label>Min: </label>
+                <output id="MIN"></output>
+                <br>
+                <br>
+                  <label>Sum: </label>
+                <output id="SUM"></output>
+                <br>
+                <br>
+                  <label>Average: </label>
+                <output id="AVERAGE"></output>
+                <br>
+                <br>
+                  <label>Reverse Order: </label>
+                <output id="REVERSE"></output>
+                
+            </form>    
+                
+            </div>
+    </div>
+    
+  <div class="Container4">
+      <h2 id="mag"><center>Magic!</center></h2>
+     
+    
+        <div class="section4">
+            
+        
+            <textarea id="TEXTAREA2"> </textarea>
+            <br>
+            <br>
+            <button type="button" onclick="Clear()">Clear It</button>
+            <button type="button" onclick="Capitalize()">Capitalize</button>
+        
+            <button type="button" onclick="Sort()">Sort</button>
+            <button type="button" onclick="reversetext()">Reverse</button>
+            <button type="button" onclick="Trim()">Strip Blank</button>
+            <button type="button" onclick="Addi()">Add Numbers</button>
+            <button type="button" onclick="Shuffle()">Shuffle</button>
+            
+        
+        </div>
+  </div>   
+  
+</div>
+
+</body>
+<footer>
+	<div class="ft">
+	<hr>
+	<code>copyright (c) 2020 Farzana Afrin</code>
+</div>
+</footer>
+</html>
